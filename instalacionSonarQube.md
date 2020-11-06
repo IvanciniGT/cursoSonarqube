@@ -21,7 +21,7 @@ docker run -d --name misonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 80
 # NOTA: El cmabio que hemos hecho en el puerto, es una restricción de AMAZON.
 # AMAZON solo me deja ejecutar cosas en los puertos ++ 8080 ++ , 8081, 8082
 
-docker run -d --name misonarqubeenterprise -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 8081:9000 sonarqube:enterprise
+docker run -d --name misonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 8081:9000 sonarqube:enterprise
 docker pull sonarqube:enterprise
 
 ------------------------------------

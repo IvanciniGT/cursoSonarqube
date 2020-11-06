@@ -25,5 +25,7 @@ services:
     ports:
       - 8080:8080
     container_name: jenkins
+#    environment:
+#      - PATH=$PATH:/opt/maven/bin/mvn
     volumes:
       - /home/ubuntu/environment/jenkins:/var/jenkins_home

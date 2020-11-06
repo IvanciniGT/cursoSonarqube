@@ -61,6 +61,12 @@ public class AppTest
         int esperado=4;
         assertTrue( resultado == esperado );
     }
+    @Test
+    public void pruebaResta() {
+        int resultado=App.resta(4,2);
+        int esperado=2;
+        assertTrue( resultado == esperado );
+    }
     
      @Test
     public void pruebaApp() {
